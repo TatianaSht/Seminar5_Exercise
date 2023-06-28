@@ -5,7 +5,6 @@
 void FillArray (double [] arr)
 {
     Random rand = new Random();
-    // double temp = Math.Round(rand.Next(0, 10) + rand.NextDouble(), 2);
     for (int i = 0; i < arr.Length; i++)
     {
         arr[i] = Math.Round(rand.Next(0, 10) + rand.NextDouble(), 2);
